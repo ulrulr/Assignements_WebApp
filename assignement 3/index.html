@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Movie Quizz</title>
+    </head>
+
+    <body>
+        <h1> The Movie Quizz</h1>
+        
+        <div class = "information">
+            <p id = "title_movie_quizz"></p>
+            <p><img src="https://image.tmdb.org/t/p/w300/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"></p>
+            <p id = "date_film_quizz"></p>
+        </div>
+        <br>
+
+        <h2 id = 'test'></h2>
+
+
+        <form action="" method="get" class="form">
+            <div class="form">
+              <label for="name">Give one director or actor name of this movie </label>
+              <input  type="text" id="user_response" placeholder="Answer here">
+              <button type="button" class = "res" onclick="cast()" id='submit_response_1'>Enter</button>
+            </div>
+        </form>
+
+        <div class="form">
+            <p id ="wrong_response" class = "res" style="color:#FF0000"></p>
+            <p id ="good_response" class = "res" style="color:#FF0000"></p>
+        </div>
+
+        <div class ="form_response">
+            <p id ="name_info"></p>
+            <img id="photo_ad">
+
+        </div>
+
+        <form action="" method="get" class="form">
+            <div class="form" id ="second_q">
+              <label for="name2">Give another film where this actor or director has played </label>
+              <input  type="text" id="user_response2" placeholder="Answer here">
+              <button type="button" class = "res" onclick="film()" id='submit_response_2'>Enter</button>
+            </div>
+        </form>
+
+        <div class="form">
+            <p id ="wrong_response_2" class = "res" style="color:#FF0000"></p>
+            <p id ="good_response_2" class = "res" style="color:#FF0000"></p>
+        </div>
+       
+        <div class ="form_response">
+            <p id ="title_film"></p>
+            <img id="photo_film">
+            <p id ="release_date"></p>
+        </div>
+
+
+    </body>
+    
+
+
+
+
+</html>
+
+
+<script src="script.js"></script>

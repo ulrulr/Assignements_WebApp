@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h1{
+    text-align: center;
+    
+}
+
+
+.information{
+    text-align:center;
+
+}
+
+
+
+div p.title.date{
+    float:left;
+}
+
+.response{
+    float : right;
+
+}
+
+.form{
+    display:inline-block;
+}
+
+.form_response{
+    text-align:center;
+    padding-top: 30px;
+
+}
